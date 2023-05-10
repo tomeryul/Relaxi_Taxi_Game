@@ -35,7 +35,7 @@
         </activity> <!-- enter this lines to run the googleMap application -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBnrkX1rNaC_7_9K5W7JmUNefWapDzebIY" />
+            android:value="XXX_XXX_XXX_XXX_XXX_XXX_XXX" />
     </application>
 
 </manifest>
