@@ -132,7 +132,7 @@ public class SettingActivity extends AppCompatActivity {
 //        MySPv1.putString(this,"savedValues", ItemJson);
 //        ///////////////////////////////////////////////////////////////////////////////////////////
 
-//        uploading the values on the "savedValues" and make in a string
+//        uploading the values on the "savedValues" and make it a string
         String fromSP = MySPv1.getString(this,"savedValues","");
 //        making the string of values in to an ItemList
         ItemList fromJsonItemList = new Gson().fromJson(fromSP,ItemList.class);

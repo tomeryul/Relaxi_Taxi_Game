@@ -319,6 +319,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
 
+        Theme_Song.pause();
         timer.cancel(); // end the timer to stop refresh the UI
         timer = null;
     }
